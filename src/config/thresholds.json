@@ -1,0 +1,44 @@
+{
+  "water_level": {
+    "min": 0,
+    "max": 15.0,
+    "label": "수위",
+    "unit": "m",
+    "scale": 1
+  },
+  "water_depth": {
+    "min": 0,
+    "max": 10.0,
+    "label": "수심",
+    "unit": "m",
+    "scale": 1
+  },
+  "temp_water_1": {
+    "min": 0,
+    "max": 40.0,
+    "label": "수온",
+    "unit": "°C",
+    "scale": 1
+  },
+  "dc_battery": {
+    "min": 11.0,
+    "max": 15.0,
+    "label": "배터리",
+    "unit": "V",
+    "scale": 1
+  },
+  "v_ew_1_1": {
+    "min": -5.0,
+    "max": 5.0,
+    "label": "유속(E-W)",
+    "unit": "m/s",
+    "scale": 0.001
+  },
+  "v_ns_1_1": {
+    "min": -5.0,
+    "max": 5.0,
+    "label": "유속(N-S)",
+    "unit": "m/s",
+    "scale": 0.001
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "water": {
+    "title": "수위",
+    "items": [
+      { "label": "측정수위", "key": "water_level", "unit": "m" },
+      { "label": "옵셋", "key": "wl_offset", "unit": "m" },
+      { "label": "최종수위", "key": "water_depth", "unit": "m" }
+    ]
+  },
+  "velocity": {
+    "title": "유속",
+    "items": [
+      { "label": "유속계(1번)", "key": "v_calculated_1", "unit": "m/s" },
+      { "label": "유속계(2번)", "key": "v_calculated_2", "unit": "m/s" },
+      { "label": "지표유속", "key": "v_surface", "unit": "m/s" }
+    ]
+  },
+  "power": {
+    "title": "전원",
+    "items": [
+      { "label": "인입", "key": "ac", "unit": "V" },
+      { "label": "충전", "key": "dc_charge", "unit": "V" },
+      { "label": "배터리", "key": "dc_battery", "unit": "V" }
+    ]
+  },
+  "etc": {
+    "title": "기타",
+    "items": [
+      { "label": "시스템온도", "key": "temp_sys", "unit": "°C" },
+      { "label": "시스템습도", "key": "hr_sys", "unit": "%" },
+      { "label": "수온", "key": "temp_water_1", "unit": "°C" }
+    ]
+  }
+}
